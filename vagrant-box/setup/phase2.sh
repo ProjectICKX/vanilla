@@ -18,3 +18,5 @@ sed -i -e 's/SELINUX=enforcing/SELINUX=disabled/g' /etc/sysconfig/selinux
 
 # yum更新
 yum -y update
+
+echo "please set GuestAdditions CD"
