@@ -68,3 +68,5 @@ yum -y remove \
  epel-release
 
 yum clean all
+
+echo "exclude=kernel*" >> /etc/yum.conf
